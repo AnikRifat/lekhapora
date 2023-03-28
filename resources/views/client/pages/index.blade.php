@@ -1,1195 +1,2190 @@
 @extends('client.app.app')
 @section('main-body')
-<div class="main-body">
 
-    <!-- Start Sldier Area  -->
-    <div class="slider-area banner-style-2 bg-image d-flex align-items-center">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 col-md-12">
-                    <div class="inner">
-                        <div class="content">
-                            <span class="pre-title" data-sal-delay="150" data-sal="slide-up"
-                              data-sal-duration="800">Better Learning Future With Us</span>
-                            <h1 class="title" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
-                                Committed To Learn Excellence In Education</h1>
-                            <p class="description" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                                It is long established that a reader will be distracted by the <br />
-                                readable
-                                popular and best content.</p>
-                            <div class="read-more-btn" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                                <a class="edu-btn" href="#">Get Started Today <i
-                                      class="icon-arrow-right-line-right"></i></a>
-                            </div>
-                            <div class="arrow-sign d-lg-block d-none">
-                                <img src="assets/images/banner/banner-02/arrow.png" alt="Banner Images"
-                                  data-sal-delay="150" data-sal="fade" data-sal-duration="800">
-                            </div>
-                        </div>
+<section class="bg-img pt-200 pb-150" data-overlay-light="2"
+  style="background-image: url(assets/client/images//front-end-img/banners/banner-1.jpg); background-position: top center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center mt-80">
+                    <h1 class="box-title mb-30">Find Your Online Course</h1>
+                </div>
+                <form class="cours-search mb-30">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="What do you want to learn today?">
+                        <button class="btn btn-primary" type="submit">Search</button>
                     </div>
-                </div>
-
-                <div class="col-lg-5">
-                    <div class="banner-thumbnail">
-                        <img class="girl-thumb" src="assets/images/banner/banner-02/banner-01.png" alt="Girl Images"
-                          data-sal-delay="150" data-sal="fade" data-sal-duration="800" />
-                    </div>
-                    <div class="banner-bg d-lg-block d-none">
-                        <img class="girl-bg" src="assets/images/banner/banner-02/girl-bg.png" alt="Girl Background"
-                          data-sal-delay="150" data-sal="fade" data-sal-duration="800" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                <div class="shape-image shape-image-1">
-                    <img src="assets/images/shapes/shape-19.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-2">
-                    <img src="assets/images/shapes/shape-05-01.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-3">
-                    <img src="assets/images/shapes/shape-19-01.png" alt="Shape Thumb" />
+                </form>
+                <div class="text-center">
+                    <a href="courses_list.html" class="btn btn-primary-light">Browse Courses List</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Sldier Area  -->
+</section>
 
-    <div class="sercice-area lekhapora-service-four edu-section-gap bg-color-white">
-        <div class="container lekhapora-animated-shape">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title text-center" data-sal-delay="150" data-sal="slide-up"
-                      data-sal-duration="800">
-                        <span class="pre-title">Course Categories</span>
-                        <h3 class="title">Popular Topics To Learn</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mt--25">
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-student-read"></i>
-                                <span class="subtitle">27 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Human Reasearch</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
+<section class="bg-transparent">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="uni_box ovr_top">
+                    <div class="row align-items-center m-0">
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                            <div class="uni_tags">
+                                <h4>Over 70+ University Cources in one place</h4>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="200" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-lab"></i>
-                                <span class="subtitle">45 Courses</span>
+                        <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12">
+                            <div class="owl-carousel owl-theme" data-nav-arrow="false" data-nav-dots="false"
+                              data-items="5" data-md-items="4" data-sm-items="3" data-xs-items="2" data-xx-items="2">
+                                <div class="item"><img src="assets/client/images//front-end-img/unilogo/uni-1.jpg"
+                                      class="img-fluid" alt=""></div>
+                                <div class="item"><img src="assets/client/images//front-end-img/unilogo/uni-2.jpg"
+                                      class="img-fluid" alt=""></div>
+                                <div class="item"><img src="assets/client/images//front-end-img/unilogo/uni-3.jpg"
+                                      class="img-fluid" alt=""></div>
+                                <div class="item"><img src="assets/client/images//front-end-img/unilogo/uni-4.jpg"
+                                      class="img-fluid" alt=""></div>
+                                <div class="item"><img src="assets/client/images//front-end-img/unilogo/uni-5.jpg"
+                                      class="img-fluid" alt=""></div>
+                                <div class="item"><img src="assets/client/images//front-end-img/unilogo/uni-6.jpg"
+                                      class="img-fluid" alt=""></div>
                             </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Web Development</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-compass"></i>
-                                <span class="subtitle">29 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Mathmatical Physics</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-calculator"></i>
-                                <span class="subtitle">35 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Number Theory</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-microscopes"></i>
-                                <span class="subtitle">40 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Data Sciences</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-calculator"></i>
-                                <span class="subtitle">40 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Web Development</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-pen-tool"></i>
-                                <span class="subtitle">23 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Art & Design</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-
-                <!-- Start Service Grid  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
-                  data-sal-duration="800">
-                    <div class="service-card service-card-4">
-                        <div class="inner">
-                            <div class="icon">
-                                <i class="icon-science"></i>
-                                <span class="subtitle">18 Courses</span>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="#">Nuclear Power</a></h6>
-                                <p class="description">Lore Ipsum a simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Service Grid  -->
-            </div>
-
-            <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                <div class="shape-image shape-image-1">
-                    <img src="assets/images/shapes/shape-11-02.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-2">
-                    <img src="assets/images/shapes/shape-02-03.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-3">
-                    <img src="assets/images/shapes/shape-20.png" alt="Shape Thumb" />
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="edu-about-area about-style-3 edu-section-gap bg-image">
-        <div class="container lekhapora-animated-shape">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 pr--80">
-                    <div class="gappery-wrapper" data-sal-delay="200" data-sal="fade" data-sal-duration="800">
-                        <div class="row g-5 align-items-end">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="gallery-image mt--85">
-                                    <img class="w-100" src="assets/images/about/about-04/gallery-1.jpg"
-                                      alt="Gallery Images">
-                                    <div class="icon-badge">
-                                        <i class="icon-ribbon"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-7 col-md-6">
-                                <div class="gallery-image">
-                                    <img class="w-100" src="assets/images/about/about-04/gallery-2.jpg"
-                                      alt="Gallery Images">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12">
-                                <div class="gallery-image gallery-image-3 text-center">
-                                    <img src="assets/images/about/about-04/gallery-3.jpg" alt="Gallery Images">
-                                    <div class="student-like-status bounce-slide">
-                                        <div class="inner">
-                                            <div class="icon">
-                                                <i class="icon-Smile"></i>
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="title">900K</h6>
-                                                <span class="subtitle">Total Students</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="inner">
-                        <div class="section-title text-start" data-sal-delay="200" data-sal="slide-up"
-                          data-sal-duration="800">
-                            <span class="pre-title">About Us</span>
-                            <h3 class="title">The highest result of education is tolerance</h3>
-
-                        </div>
-                        <p class="description mt--40" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                            nunc null liobortis nibh porttitor. Facilisi arcu, nibh vel risus, morbi
-                            pharetra.
-                            Facilisi sit miam mauris non iaculis elit fusce amet nunc in odio molestie.</p>
-                        <div class="feature-style-5 row g-5">
-                            <div class="col-lg-12 col-xl-6" data-sal-delay="200" data-sal="slide-up"
-                              data-sal-duration="800">
-                                <div class="edu-feature-list">
-                                    <div class="icon">
-                                        <i class="icon-Board"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="title">Flexible Classes</h6>
-                                        <p class="description">There are many variations of passages of the
-                                            Ipsum available for now</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6" data-sal-delay="200" data-sal="slide-up"
-                              data-sal-duration="800">
-                                <div class="edu-feature-list">
-                                    <div class="icon">
-                                        <i class="icon-Bag"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="title">Educator Support</h6>
-                                        <p class="description">There are many variations of passages of the
-                                            Ipsum available for now</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="read-more-btn mt--60 mt_lg--30 mt_md--30 mt_sm--30" data-sal-delay="200"
-                          data-sal="slide-up" data-sal-duration="800">
-                            <a class="edu-btn" href="about-us-1.php">Learn More <i
-                                  class="icon-arrow-right-line-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                <div class="shape-image shape-image-1">
-                    <img src="assets/images/shapes/shape-21.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-2">
-                    <img src="assets/images/shapes/shape-13-04.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-3">
-                    <img src="assets/images/shapes/shape-03-05.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-4">
-                    <img src="assets/images/shapes/shape-15-02.png" alt="Shape Thumb" />
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="edu-course-area lekhapora-home-two-course course-three-wrapper edu-section-gap bg-color-white">
-        <div class="container lekhapora-animated-shape">
-            <div class="row g-5 align-items-center mb--30">
-                <div class="col-lg-6">
-                    <div class="section-title text-start" data-sal-delay="150" data-sal="slide-up"
-                      data-sal-duration="800">
-                        <span class="pre-title">Who We Are</span>
-                        <h3 class="title">We Offer The Best Carrier</h3>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div
-                      class="button-group isotop-filter filters-button-group d-flex justify-content-start justify-content-lg-end">
-                        <button data-filter="*" class="is-checked"><span class="filter-text">All</span></button>
-                        <button data-filter=".cat--1"><span class="filter-text">Trending</span></button>
-                        <button data-filter=".cat--2"><span class="filter-text">Popularity</span></button>
-                        <button data-filter=".cat--3"><span class="filter-text">Featured</span></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row g-5">
-                <div class="col-12">
-                    <div class="grid-metro3 mesonry-list">
-                        <div class="resizer"></div>
-                        <!-- Start Single Card  -->
-                        <div class="grid-metro-item cat--1 cat--3">
-                            <div class="edu-card card-type-3 radius-small">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="course-details.php">
-                                            <img class="w-100" src="assets/images/course/course-01/course-01.jpg"
-                                              alt="Course Meta">
-                                        </a>
-                                        <div class="wishlist-top-right">
-                                            <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                        </div>
-                                        <div class="top-position status-group left-bottom">
-                                            <span class="lekhapora-status status-03">Language
-                                                Learning</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="content">
-                                        <div class="card-top">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-1.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">James Carlson</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>45 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">Master Native English
-                                                Class This Speaking Skills</a>
-                                        </h6>
-                                        <div class="card-bottom">
-                                            <div class="price-list price-style-02">
-                                                <div class="price current-price">$55.99</div>
-                                                <div class="price old-price">$65.99</div>
-                                            </div>
-                                            <div class="edu-rating rating-default">
-                                                <div class="rating">
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                </div>
-                                                <span class="rating-count">(30)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-hover-action">
-                                    <div class="hover-content">
-                                        <div class="content-top">
-                                            <div class="top-status-bar">
-                                                <span class="lekhapora-status status-03">Language
-                                                    Learning</span>
-                                            </div>
-                                            <div class="top-wishlist-bar">
-                                                <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                            </div>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">Master Native English
-                                                Class This Speaking Skills</a></h6>
-
-                                        <p class="description">There are many variations of passages of
-                                            Lorem Ipsaums available, but the majority have suffered
-                                            alteration. generators on the Internet tend to repeat.</p>
-
-                                        <div class="price-list price-style-02">
-                                            <div class="price current-price">$55.99</div>
-                                            <div class="price old-price">$69.99</div>
-                                        </div>
-
-                                        <div class="hover-bottom-content">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-1.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">James Carlson</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>45 Lessons</li>
-                                            </ul>
-                                        </div>
-
-
-                                        <div class="read-more-btn">
-                                            <a class="edu-btn btn-medium btn-white" href="course-details.php">Enroll
-                                                Now<i class="icon-arrow-right-line-right"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="grid-metro-item cat--1 cat--2">
-                            <div class="edu-card card-type-3 radius-small">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="course-details.php">
-                                            <img class="w-100" src="assets/images/course/course-01/course-02.jpg"
-                                              alt="Course Meta">
-                                        </a>
-                                        <div class="wishlist-top-right">
-                                            <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                        </div>
-                                        <div class="top-position status-group left-bottom">
-                                            <span class="lekhapora-status status-03">Marketing</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="card-top">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-3.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Nancy Phipps</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>40 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">The Basic Of
-                                                Financial
-                                                Analyst Online
-                                                Course</a>
-                                        </h6>
-                                        <div class="card-bottom">
-                                            <div class="price-list price-style-02">
-                                                <div class="price current-price">$39.99</div>
-                                                <div class="price old-price">$49.99</div>
-                                            </div>
-                                            <div class="edu-rating rating-default">
-                                                <div class="rating">
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                </div>
-                                                <span class="rating-count">(10)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-hover-action">
-                                    <div class="hover-content">
-                                        <div class="content-top">
-                                            <div class="top-status-bar">
-                                                <span class="lekhapora-status status-03">Marketing</span>
-                                            </div>
-                                            <div class="top-wishlist-bar">
-                                                <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                            </div>
-                                        </div>
-
-                                        <h6 class="title"><a href="course-details.php">The Basic Of
-                                                Financial
-                                                Analyst Online
-                                                Course</a></h6>
-
-                                        <p class="description">There are many variations of passages of
-                                            Lorem Ipsaums available, but the majority have suffered
-                                            alteration. generators on the Internet tend to repeat.</p>
-
-                                        <div class="price-list price-style-02">
-                                            <div class="price current-price">$39.99</div>
-                                            <div class="price old-price">$49.99</div>
-                                        </div>
-
-                                        <div class="hover-bottom-content">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-3.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Nancy Phipps</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>40 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <div class="read-more-btn">
-                                            <a class="edu-btn btn-medium btn-white" href="course-details.php">Enroll
-                                                Now<i class="icon-arrow-right-line-right"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="grid-metro-item cat--3">
-                            <div class="edu-card card-type-3 radius-small">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="course-details.php">
-                                            <img class="w-100" src="assets/images/course/course-01/course-03.jpg"
-                                              alt="Course Meta">
-                                        </a>
-                                        <div class="wishlist-top-right">
-                                            <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                        </div>
-                                        <div class="top-position status-group left-bottom">
-                                            <span class="lekhapora-status status-03">Graphics Design</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="card-top">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-6.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Linda Bacote</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>18 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">Introduction to
-                                                Javascript for The
-                                                Beginners</a>
-                                        </h6>
-                                        <div class="card-bottom">
-                                            <div class="price-list price-style-02">
-                                                <div class="price current-price">$89.99</div>
-                                                <div class="price old-price">$99.99</div>
-                                            </div>
-                                            <div class="edu-rating rating-default">
-                                                <div class="rating">
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                </div>
-                                                <span class="rating-count">(20)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-hover-action">
-                                    <div class="hover-content">
-                                        <div class="content-top">
-                                            <div class="top-status-bar">
-                                                <span class="lekhapora-status status-03">Marketing</span>
-                                            </div>
-                                            <div class="top-wishlist-bar">
-                                                <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                            </div>
-                                        </div>
-
-                                        <h6 class="title"><a href="course-details.php">Introduction to
-                                                Javascript for The
-                                                Beginners</a></h6>
-
-                                        <p class="description">There are many variations of passages of
-                                            Lorem Ipsaums available, but the majority have suffered
-                                            alteration. generators on the Internet tend to repeat.</p>
-
-                                        <div class="price-list price-style-02">
-                                            <div class="price current-price">$89.99</div>
-                                            <div class="price old-price">$99.99</div>
-                                        </div>
-
-                                        <div class="hover-bottom-content">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-6.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Linda Bacote</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>18 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <div class="read-more-btn">
-                                            <a class="edu-btn btn-medium btn-white" href="course-details.php">Enroll
-                                                Now<i class="icon-arrow-right-line-right"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="grid-metro-item cat--3">
-                            <div class="edu-card card-type-3 radius-small">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="course-details.php">
-                                            <img class="w-100" src="assets/images/course/course-01/course-04.jpg"
-                                              alt="Course Meta">
-                                        </a>
-                                        <div class="wishlist-top-right">
-                                            <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                        </div>
-                                        <div class="top-position status-group left-bottom">
-                                            <span class="lekhapora-status status-03">Marketing</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="card-top">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-5.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Alice McCoy</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>28 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">Oracle SQL Developer
-                                                :
-                                                Essentials Tips and
-                                                Tricks</a>
-                                        </h6>
-                                        <div class="card-bottom">
-                                            <div class="price-list price-style-02">
-                                                <div class="price current-price">$79.99</div>
-                                                <div class="price old-price">$85.99</div>
-                                            </div>
-                                            <div class="edu-rating rating-default">
-                                                <div class="rating">
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                </div>
-                                                <span class="rating-count">(15)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-hover-action">
-                                    <div class="hover-content">
-                                        <div class="content-top">
-                                            <div class="top-status-bar">
-                                                <span class="lekhapora-status status-03">Marketing</span>
-                                            </div>
-                                            <div class="top-wishlist-bar">
-                                                <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                            </div>
-                                        </div>
-
-                                        <h6 class="title"><a href="course-details.php">Oracle SQL Developer
-                                                :
-                                                Essentials Tips and
-                                                Tricks</a></h6>
-
-                                        <p class="description">There are many variations of passages of
-                                            Lorem Ipsaums available, but the majority have suffered
-                                            alteration. generators on the Internet tend to repeat.</p>
-
-                                        <div class="price-list price-style-02">
-                                            <div class="price current-price">$75.99</div>
-                                            <div class="price old-price">$85.99</div>
-                                        </div>
-
-                                        <div class="hover-bottom-content">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-5.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Alice McCoy</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>28 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <div class="read-more-btn">
-                                            <a class="edu-btn btn-medium btn-white" href="course-details.php">Enroll
-                                                Now<i class="icon-arrow-right-line-right"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="grid-metro-item cat--3">
-                            <div class="edu-card card-type-3 radius-small">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="course-details.php">
-                                            <img class="w-100" src="assets/images/course/course-01/course-05.jpg"
-                                              alt="Course Meta">
-                                        </a>
-                                        <div class="wishlist-top-right">
-                                            <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                        </div>
-                                        <div class="top-position status-group left-bottom">
-                                            <span class="lekhapora-status status-03">Web Development</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="card-top">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-1.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">James Carlson</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>35 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">Education Makes A
-                                                Person
-                                                A Responsible Citizen</a>
-                                        </h6>
-                                        <div class="card-bottom">
-                                            <div class="price-list price-style-02">
-                                                <div class="price current-price">$49.99</div>
-                                                <div class="price old-price">$59.99</div>
-                                            </div>
-                                            <div class="edu-rating rating-default">
-                                                <div class="rating">
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                </div>
-                                                <span class="rating-count">(40)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-hover-action">
-                                    <div class="hover-content">
-                                        <div class="content-top">
-                                            <div class="top-status-bar">
-                                                <span class="lekhapora-status status-03">Web
-                                                    Development</span>
-                                            </div>
-                                            <div class="top-wishlist-bar">
-                                                <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                            </div>
-                                        </div>
-
-                                        <h6 class="title"><a href="course-details.php">Education Makes A
-                                                Person
-                                                A Responsible Citizen</a></h6>
-
-                                        <p class="description">There are many variations of passages of
-                                            Lorem Ipsaums available, but the majority have suffered
-                                            alteration. generators on the Internet tend to repeat.</p>
-
-                                        <div class="price-list price-style-02">
-                                            <div class="price current-price">$49.99</div>
-                                            <div class="price old-price">$59.99</div>
-                                        </div>
-
-                                        <div class="hover-bottom-content">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-1.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">James Carlson</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>35 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <div class="read-more-btn">
-                                            <a class="edu-btn btn-medium btn-white" href="course-details.php">Enroll
-                                                Now<i class="icon-arrow-right-line-right"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="grid-metro-item cat--3">
-                            <div class="edu-card card-type-3 radius-small">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="course-details.php">
-                                            <img class="w-100" src="assets/images/course/course-01/course-06.jpg"
-                                              alt="Course Meta">
-                                        </a>
-                                        <div class="wishlist-top-right">
-                                            <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                        </div>
-                                        <div class="top-position status-group left-bottom">
-                                            <span class="lekhapora-status status-03">Programming</span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="card-top">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-3.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Nancy Phipps</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>16 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="title"><a href="course-details.php">Python Django Web
-                                                Development: To-Do
-                                                App</a>
-                                        </h6>
-                                        <div class="card-bottom">
-                                            <div class="price-list price-style-02">
-                                                <div class="price current-price">$79.99</div>
-                                                <div class="price old-price">$89.99</div>
-                                            </div>
-                                            <div class="edu-rating rating-default">
-                                                <div class="rating">
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                    <i class="icon-Star"></i>
-                                                </div>
-                                                <span class="rating-count">(53)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-hover-action">
-                                    <div class="hover-content">
-                                        <div class="content-top">
-                                            <div class="top-status-bar">
-                                                <span class="lekhapora-status status-03">Programming</span>
-                                            </div>
-                                            <div class="top-wishlist-bar">
-                                                <button class="wishlist-btn"><i class="icon-Heart"></i></button>
-                                            </div>
-                                        </div>
-
-                                        <h6 class="title"><a href="course-details.php">Python Django Web
-                                                Development: To-Do
-                                                App</a></h6>
-
-                                        <p class="description">There are many variations of passages of
-                                            Lorem Ipsaums available, but the majority have suffered
-                                            alteration. generators on the Internet tend to repeat.</p>
-
-                                        <div class="price-list price-style-02">
-                                            <div class="price current-price">$79.99</div>
-                                            <div class="price old-price">$89.99</div>
-                                        </div>
-
-                                        <div class="hover-bottom-content">
-                                            <div class="author-meta">
-                                                <div class="author-thumb">
-                                                    <a href="#">
-                                                        <img
-                                                          src="assets/images/instructor/instructor-small/instructor-3.jpg"
-                                                          alt="Author Images">
-                                                        <span class="author-title">Nancy Phipps</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <ul class="edu-meta meta-02">
-                                                <li><i class="icon-file-list-3-line"></i>16 Lessons</li>
-                                            </ul>
-                                        </div>
-                                        <div class="read-more-btn">
-                                            <a class="edu-btn btn-medium btn-white" href="course-details.php">Enroll
-                                                Now<i class="icon-arrow-right-line-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                <div class="shape-image shape-image-1">
-                    <img src="assets/images/shapes/shape-04-02.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-2">
-                    <img src="assets/images/shapes/shape-03-06.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-3">
-                    <img src="assets/images/shapes/shape-04-03.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-4">
-                    <img src="assets/images/shapes/shape-07-01.png" alt="Shape Thumb" />
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Start Testimonial Area  -->
-
-    <!-- End Testimonial Area  -->
-
-    <div class="lekhapora-home-two-counter edu-counterup-area counterup-wrapper-1 edu-section-gapBottom bg-color-white">
-        <!-- Start Counterup Area  -->
-        <div class="container lekhapora-animated-shape">
-            <div class="row gy-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="row g-5 pr--75 pr_md--0 pr_sm--0">
-                        <!-- Start Single Counterup  -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                            <div class="edu-counterup">
-                                <div class="inner">
-                                    <div class="icon">
-                                        <img src="assets/images/icons/winner-04.png" alt="Icons Images">
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="449">00</span>
-                                        </h3>
-                                        <span>Learners & counting</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Counterup  -->
-
-                        <!-- Start Single Counterup  -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                            <div class="edu-counterup">
-                                <div class="inner">
-                                    <div class="icon">
-                                        <img src="assets/images/icons/winner-05.png" alt="Icons Images">
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="330">00</span>
-                                        </h3>
-                                        <span>Courses & Video</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Counterup  -->
-
-                        <!-- Start Single Counterup  -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                            <div class="edu-counterup">
-                                <div class="inner">
-                                    <div class="icon">
-                                        <img src="assets/images/icons/winner-06.png" alt="Icons Images">
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="275">50</span>
-                                        </h3>
-                                        <span>Certified Students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Counterup  -->
-
-                        <!-- Start Single Counterup  -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                            <div class="edu-counterup">
-                                <div class="inner">
-                                    <div class="icon">
-                                        <img src="assets/images/icons/winner-07.png" alt="Icons Images">
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="378">00</span>
-                                        </h3>
-                                        <span>Winning Award</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Counterup  -->
-
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="choose-us-2">
-                        <div class="inner">
-                            <div class="section-title text-left" data-sal-delay="150" data-sal="slide-up"
-                              data-sal-duration="800">
-                                <span class="pre-title" data-sal-delay="150" data-sal="slide-up"
-                                  data-sal-duration="800">Why Choose Us</span>
-                                <h3 class="title">Creating A Community Of Life Long Learners</h3>
-                            </div>
-                            <p class="description mt--40 mb--30">There are many variations of passages of
-                                the
-                                Ipsum available, but the majority have suffered alteration in some form, by
-                                injected humour.</p>
-                            <div class="feature-style-4">
-                                <div class="edu-feature-list" data-sal-delay="150" data-sal="slide-up"
-                                  data-sal-duration="800">
-                                    <div class="icon">
-                                        <i class="icon-Smile"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="title">Trusted By Thousands</h6>
-                                        <p>There are many variations of passages of the Ipsum available, but
-                                            the
-                                            majority have suffered alteration</p>
-                                    </div>
-                                </div>
-
-                                <div class="edu-feature-list color-var-2" data-sal-delay="150" data-sal="slide-up"
-                                  data-sal-duration="800">
-                                    <div class="icon">
-                                        <i class="icon-Support"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="title">Unlimited Resources With Strong Support</h6>
-                                        <p>There are many variations of passages of the Ipsum available, but
-                                            the
-                                            majority have suffered alteration</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                <div class="shape-image shape-image-1">
-                    <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-2">
-                    <img src="assets/images/shapes/shape-11.png" alt="Shape Thumb" />
-                </div>
-            </div>
-        </div>
-        <!-- End Counterup Area  -->
-    </div>
-
-    <!-- Start Newsletter Area  -->
-    <div class="edu-newsletter-area bg-image newsletter-style-3 edu-section-gap bg-color-primary">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="inner">
-                        <div class="section-title text-white text-start" data-sal-delay="150" data-sal="slide-up"
-                          data-sal-duration="800">
-                            <span class="pre-title">Let Us Help</span>
-                            <h3 class="title">Finding Your Right Courses</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div
-                      class="newsletter-right-content d-block d-sm-flex align-items-center justify-content-start justify-content-lg-end">
-                        <div class="contact-btn">
-                            <a class="edu-btn btn-white" href="#">Get Started Now<i
-                                  class="icon-arrow-right-line-right"></i></a>
-                        </div>
-                        <div class="contact-info">
-                            <a href="tel:+728-238-399-200"><i class="icon-phone-line"></i>
-                                +728-238-399-200</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Newsletter Area  -->
+</section>
 
+<section class="py-50" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="mb-md-0 mb-30 p-30 bg-primary-light rounded">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="badge badge-danger">Free</span>
+                            <h3 class="my-20">
+                                <a href="courses_details.html">Business Manegement <br> Document</a>
+                            </h3>
+                            <a href="courses_list.html" class="btn btn-primary">View Courses</a>
+                        </div>
+                        <div>
+                            <img src="assets/client/images//front-end-img/about/banner-img-1.png" class="img-fluid"
+                              alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="p-30 bg-info-light rounded">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="badge badge-danger">new</span>
+                            <h3 class="my-20">
+                                <a href="courses_details.html">Online Courses <br>From Edulearn University</a>
+                            </h3>
+                            <a href="courses_list.html" class="btn btn-primary">Find Out More</a>
+                        </div>
+                        <div>
+                            <img src="assets/client/images//front-end-img/about/banner-img-2.png" class="img-fluid"
+                              alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="py-50 bg-white" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-12 text-center">
+                <h1 class="mb-15">Featured Categories</h1>
+                <hr class="w-100 bg-primary">
+            </div>
+        </div>
+        <div class="row mt-30 justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-code"></i></div>
+                        <div class="courses_caption"><span>Development</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-window-restore"></i></div>
+                        <div class="courses_caption"><span>Web Designing</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-leaf"></i></div>
+                        <div class="courses_caption"><span>Lifestyle</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-heartbeat"></i></div>
+                        <div class="courses_caption"><span>Health &amp; Fitness</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-map-marker"></i></div>
+                        <div class="courses_caption"><span>Gov. Exams</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-photo"></i></div>
+                        <div class="courses_caption"><span>Photography</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-server"></i></div>
+                        <div class="courses_caption"><span>Finance &amp; Accounting</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                <div class="courses_wrap style_2">
+                    <a href="courses_list.html" class="courses_box">
+                        <div class="courses_icon"><i class="fa fa-scissors"></i></div>
+                        <div class="courses_caption"><span>Office Productivity</span></div>
+                        <div class="courses_count"><span>22 Course</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="bg-white py-50" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-12 text-center">
+                <h1 class="mb-15">Explore our Courses</h1>
+                <hr class="w-100 bg-primary">
+            </div>
+        </div>
+        <div class="row mt-30">
+            <div class="col-12">
+                <ul class="nav nav-tabs justify-content-center bb-0 mb-10" role="tablist">
+                    <li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#all" role="tab">All</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab1" role="tab">Finance</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab2"
+                          role="tab">Operations</a> </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab3" role="tab">Strategy
+                            & Leadership</a> </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab4" role="tab">Marketing</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab5" role="tab">Analytics</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab6" role="tab">HR</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab7"
+                          role="tab">Management</a> </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="all" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/4.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">General</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/6.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">IT & Software</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/5.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Photography</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/2.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Programming Language</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/10.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Computer Basic</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab1" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/5.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Photography</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/2.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Programming Language</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/10.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Computer Basic</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/5.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Photography</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/2.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Programming Language</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab4" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/10.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Computer Basic</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab5" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/5.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Photography</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/2.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Programming Language</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab6" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Business Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">UI Design</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/10.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Computer Basic</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab7" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/4.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">General</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/6.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">IT & Software</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Manegement</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="box">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/10.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="box-body">
+                                            <div class="text-start">
+                                                <h4 class="box-title">Computer Basic</h4>
+                                                <p class="mb-10 text-light fs-12"><i class="fa fa-calendar me-5"></i>
+                                                    Sept 16th, 2020</p>
+                                                <p class="box-text">Some quick example text to build on the card
+                                                    title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-outline btn-primary btn-sm">Read
+                                                    more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-</div>
+<section class="py-50" data-aos="fade-up">
+    <div class="container">
+        <div class="row align-items-center justify-content-between mb-5">
+            <div class="col-md-5 col-sm-12" data-aos="fade-up">
+                <div class="cpt-tx">
+                    <h2 class="mb-3">We Have The Best Online Education in The City</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate non provident, similique</p>
+                    <div class="mb-3 me-4 ms-lg-0 me-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div
+                              class="rounded-circle bg-primary-light p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 ms-3">Full lifetime access</h6>
+                        </div>
+                    </div>
+                    <div class="mb-3 me-4 ms-lg-0 me-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div
+                              class="rounded-circle bg-primary-light p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 ms-3">20+ downloadable resources</h6>
+                        </div>
+                    </div>
+                    <div class="mb-3 me-4 ms-lg-0 me-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div
+                              class="rounded-circle bg-primary-light p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 ms-3">Certificate of completion</h6>
+                        </div>
+                    </div>
+                    <div class="mb-3 me-4 ms-lg-0 me-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div
+                              class="rounded-circle bg-primary-light p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 ms-3">Free Trial 7 Days</h6>
+                        </div>
+                    </div>
+                    <div class="text-start mt-4"><a href="#" class="btn btn-primary">Enrolled Today</a></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="mt-30 mt-md-0">
+                    <img src="assets/client/images//front-end-img/about/about-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-50 row align-items-center justify-content-between">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="mb-30 mb-md-0">
+                    <img src="assets/client/images//front-end-img/about/4f.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="cpt-tx">
+                    <ol class="list-unstyled p-0">
+                        <li class="d-flex align-items-start my-3 my-md-4">
+                            <div
+                              class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-primary">
+                                <div class="position-absolute text-white h5 mb-0">1</div>
+                            </div>
+                            <div class="ms-3 ms-md-4">
+                                <h4>Create account</h4>
+                                <p>
+                                    Oluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start my-3 my-md-4">
+                            <div
+                              class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-primary">
+                                <div class="position-absolute text-white h5 mb-0">3</div>
+                            </div>
+                            <div class="ms-3 ms-md-4">
+                                <h4>Join Membership</h4>
+                                <p>
+                                    Error sit voluptatem actium doloremque laudantium, totam rem aperiam, eaque
+                                    ipsa.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start my-3 my-md-4">
+                            <div
+                              class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-primary">
+                                <div class="position-absolute text-white h5 mb-0">3</div>
+                            </div>
+                            <div class="ms-3 ms-md-4">
+                                <h4>Start Learning</h4>
+                                <p>
+                                    Error sit voluptatem actium doloremque laudantium, totam rem aperiam, eaque
+                                    ipsa.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start my-3 my-md-4">
+                            <div
+                              class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-primary">
+                                <div class="position-absolute text-white h5 mb-0">4</div>
+                            </div>
+                            <div class="ms-3 ms-md-4">
+                                <h4>Get Certificate</h4>
+                                <p>
+                                    Unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa.
+                                </p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-50 bg-white" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-12 text-center">
+                <h1 class="mb-15">Upcoming Courses</h1>
+                <hr class="w-100 bg-primary">
+            </div>
+        </div>
+        <div class="row mt-30">
+            <div class="col-12">
+                <ul class="nav nav-tabs justify-content-center bb-0 mb-10" role="tablist">
+                    <li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab8"
+                          role="tab">MBA</a> </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab9" role="tab">Machine
+                            Learning</a> </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab10" role="tab">Software
+                            & Technology</a> </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab11"
+                          role="tab">Marketing</a> </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab12" role="tab">Law</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab13"
+                          role="tab">Management</a> </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab8" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/1.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Manegement</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Networking</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Security</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">IT & Software</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab9" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">IT & Software</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/1.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Manegement</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Networking</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Security</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab10" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Security</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">IT & Software</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Networking</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/1.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Manegement</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab11" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/1.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Manegement</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">IT & Software</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Networking</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Security</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab12" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Security</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">IT & Software</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/1.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Manegement</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Networking</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab13" role="tabpanel">
+                        <div class="px-15 pt-15">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/9.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Networking</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/8.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Security</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/1.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">Manegement</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img class="card-img-top"
+                                              src="assets/client/images//front-end-img/courses/7.jpg"
+                                              alt="Card image cap">
+                                        </a>
+                                        <div class="position-absolute r-10 t-10">
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-heart-o"></i></button>
+                                            <button type="button"
+                                              class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                                                  class="fa fa-share-alt"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <span class="badge badge-success mb-10">Online</span>
+                                            <h4 class="card-title">IT & Software</h4>
+                                            <div class="d-flex justify-content-between">
+                                                <a href="#"><span class="fw-bold">Duration:</span> 6 Months</a>
+                                                <a href="#"><span class="fw-bold">Daily:</span> 2 Hours</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-50" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-12 text-center">
+                <h1 class="mb-15">Reviews & Ratings</h1>
+                <hr class="w-100 bg-primary">
+            </div>
+        </div>
+        <div class="row mt-30">
+            <div class="col-12">
+                <div class="owl-carousel owl-theme" data-nav-arrow="true" data-nav-dots="true" data-items="2"
+                  data-md-items="2" data-sm-items="2" data-xs-items="1" data-xx-items="1">
+                    <div class="item">
+                        <div class="testimonial-bx">
+                            <div class="testimonial-thumb">
+                                <img src="assets/client/images//front-end-img/avatar/5.jpg" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="name">Peter Packer</h4>
+                                <p>-Art Director</p>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="fs-16">Contrary to popular belief, Lorem Ipsum is not simply random
+                                    text. It has roots in a piece of classical Latin literature from 45 BC,
+                                    making it over 2000 years old. Richard McClintock, a Latin professor at
+                                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                                    words, consectetur, from a Lorem Ipsum passage, and going through the cites
+                                    of the word...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-bx">
+                            <div class="testimonial-thumb">
+                                <img src="assets/client/images//front-end-img/avatar/2.jpg" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="name">Peter Packer</h4>
+                                <p>-Art Director</p>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="fs-16">Contrary to popular belief, Lorem Ipsum is not simply random
+                                    text. It has roots in a piece of classical Latin literature from 45 BC,
+                                    making it over 2000 years old. Richard McClintock, a Latin professor at
+                                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                                    words, consectetur, from a Lorem Ipsum passage, and going through the cites
+                                    of the word...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-bx">
+                            <div class="testimonial-thumb">
+                                <img src="assets/client/images//front-end-img/avatar/8.jpg" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="name">Peter Packer</h4>
+                                <p>-Art Director</p>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="fs-16">Contrary to popular belief, Lorem Ipsum is not simply random
+                                    text. It has roots in a piece of classical Latin literature from 45 BC,
+                                    making it over 2000 years old. Richard McClintock, a Latin professor at
+                                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                                    words, consectetur, from a Lorem Ipsum passage, and going through the cites
+                                    of the word...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-bx">
+                            <div class="testimonial-thumb">
+                                <img src="assets/client/images//front-end-img/avatar/6.jpg" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="name">Peter Packer</h4>
+                                <p>-Art Director</p>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="fs-16">Contrary to popular belief, Lorem Ipsum is not simply random
+                                    text. It has roots in a piece of classical Latin literature from 45 BC,
+                                    making it over 2000 years old. Richard McClintock, a Latin professor at
+                                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                                    words, consectetur, from a Lorem Ipsum passage, and going through the cites
+                                    of the word...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-50 bg-white" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-12 text-center">
+                <h1 class="mb-15">Try FREE courses to learn fundamentals</h1>
+                <hr class="w-100 bg-primary">
+            </div>
+        </div>
+        <div class="row mt-30">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/client/images//front-end-img/courses/1.jpg"
+                          alt="Card image cap">
+                    </a>
+                    <div class="position-absolute r-10 t-10">
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-heart-o"></i></button>
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-share-alt"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Data</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary btn-outline btn-sm">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/client/images//front-end-img/courses/2.jpg"
+                          alt="Card image cap">
+                    </a>
+                    <div class="position-absolute r-10 t-10">
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-heart-o"></i></button>
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-share-alt"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Management & Marketing</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary btn-outline btn-sm">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/client/images//front-end-img/courses/3.jpg"
+                          alt="Card image cap">
+                    </a>
+                    <div class="position-absolute r-10 t-10">
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-heart-o"></i></button>
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-share-alt"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Technology</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary btn-outline btn-sm">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/client/images//front-end-img/courses/4.jpg"
+                          alt="Card image cap">
+                    </a>
+                    <div class="position-absolute r-10 t-10">
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-heart-o"></i></button>
+                        <button type="button" class="waves-effect waves-circle btn btn-circle btn-dark btn-xs me-5"><i
+                              class="fa fa-share-alt"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Digital Marketing</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary btn-outline btn-sm">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <a href="#" class="btn btn-primary mx-auto">View All Free Courses</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-50 bg-img countnm-bx"
+  style="background-image: url(assets/client/images//front-end-img/background/bg-3.jpg)" data-overlay="5"
+  data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <div class="w-80 h-80 l-h-100 rounded-circle b-1 border-white text-center mx-auto">
+                        <span class="text-white fs-40 icon-User"><span class="path1"></span><span
+                              class="path2"></span></span>
+                    </div>
+                    <h1 class="countnm my-10 text-white fw-300">5428</h1>
+                    <div class="text-uppercase text-white">Teachers</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <div class="w-80 h-80 l-h-100 rounded-circle b-1 border-white text-center mx-auto">
+                        <span class="text-white fs-40 icon-Book"></span>
+                    </div>
+                    <h1 class="countnm my-10 text-white fw-300">120</h1>
+                    <div class="text-uppercase text-white">Courses</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <div class="w-80 h-80 l-h-100 rounded-circle b-1 border-white text-center mx-auto">
+                        <span class="text-white fs-40 icon-Group"><span class="path1"></span><span
+                              class="path2"></span></span>
+                    </div>
+                    <h1 class="countnm my-10 text-white fw-300">7485</h1>
+                    <div class="text-uppercase text-white">Student</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <div class="w-80 h-80 l-h-100 rounded-circle b-1 border-white text-center mx-auto">
+                        <span class="text-white fs-40 icon-Globe"><span class="path1"></span><span
+                              class="path2"></span></span>
+                    </div>
+                    <h1 class="countnm my-10 text-white fw-300">100</h1>
+                    <div class="text-uppercase text-white">Country</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-50" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-12 text-center">
+                <h1 class="mb-15">Latest Blog</h1>
+                <hr class="w-100 bg-primary">
+            </div>
+        </div>
+        <div class="row mt-30">
+            <div class="col-xl-4 col-md-4 col-12">
+                <div class="blog-post">
+                    <div class="entry-image clearfix">
+                        <img class="img-fluid" src="assets/client/images//front-end-img/courses/1f.jpg" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <div class="entry-title mb-10">
+                            <a href="#">Blog Post With Image</a>
+                        </div>
+                        <div class="entry-meta mb-10">
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-folder-open-o"></i> Design</a></li>
+                                <li><a href="#"><i class="fa fa-comment-o"></i> 5</a></li>
+                                <li><a href="#"><i class="fa fa-calendar-o"></i> 12 Aug 2020</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus fuga laborum
+                                totam itaque architecto! Laudantium sed delectus assumenda, doloribus non.</p>
+                        </div>
+                        <div class="entry-share d-flex justify-content-between align-items-center">
+                            <div class="entry-button">
+                                <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                            </div>
+                            <div class="social">
+                                <strong>Share : </strong>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-dribbble"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-12">
+                <div class="blog-post">
+                    <div class="entry-image clearfix">
+                        <div class="owl-carousel bottom-dots-center owl-theme" data-nav-dots="true" data-autoplay="true"
+                          data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-xx-items="1">
+                            <div class="item">
+                                <img src="assets/client/images//front-end-img/courses/2f.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/client/images//front-end-img/courses/3f.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/client/images//front-end-img/courses/4f.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-detail">
+                        <div class="entry-title mb-10">
+                            <a href="#">Blog Post With Image Slider</a>
+                        </div>
+                        <div class="entry-meta mb-10">
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-folder-open-o"></i> Design</a></li>
+                                <li><a href="#"><i class="fa fa-comment-o"></i> 5</a></li>
+                                <li><a href="#"><i class="fa fa-calendar-o"></i> 12 Aug 2020</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus fuga laborum
+                                totam itaque architecto! Laudantium sed delectus assumenda, doloribus non.</p>
+                        </div>
+                        <div class="entry-share d-flex justify-content-between align-items-center">
+                            <div class="entry-button">
+                                <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                            </div>
+                            <div class="social">
+                                <strong>Share : </strong>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-dribbble"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-12">
+                <div class="blog-post">
+                    <div class="entry-image clearfix">
+                        <ul class="grid-post list-unstyled">
+                            <li>
+                                <img class="img-fluid" src="assets/client/images//front-end-img/courses/5f.jpg" alt="">
+                            </li>
+                            <li>
+                                <img class="img-fluid" src="assets/client/images//front-end-img/courses/6f.jpg" alt="">
+                            </li>
+                            <li>
+                                <img class="img-fluid" src="assets/client/images//front-end-img/courses/7f.jpg" alt="">
+                            </li>
+                            <li>
+                                <img class="img-fluid" src="assets/client/images//front-end-img/courses/8f.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="blog-detail">
+                        <div class="entry-title mb-10">
+                            <a href="#">Blogpost With Image Grid Gallery</a>
+                        </div>
+                        <div class="entry-meta mb-10">
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-folder-open-o"></i> Design</a></li>
+                                <li><a href="#"><i class="fa fa-comment-o"></i> 5</a></li>
+                                <li><a href="#"><i class="fa fa-calendar-o"></i> 12 Aug 2020</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus fuga laborum
+                                totam itaque architecto! Laudantium sed delectus assumenda, doloribus non.</p>
+                        </div>
+                        <div class="entry-share d-flex justify-content-between align-items-center">
+                            <div class="entry-button">
+                                <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                            </div>
+                            <div class="social">
+                                <strong>Share : </strong>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-dribbble"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
